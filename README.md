@@ -18,13 +18,13 @@ This project addresses the critical challenge of predicting agricultural yields,
 ---
 
 ## Visual Demo
+#### Feature Importance Plot
+![Feature Importance](./visualization/Most_Important_Features.png)      
+*This plot shows that crop type is the dominant predictor of yield.* 
 
-#### Key Analytical Plots
-
-| Feature Importance Plot                                      | Actual vs. Predicted Plot                                      |
-| ------------------------------------------------------------ | -------------------------------------------------------------- |
-| ![Feature Importance](./visualization/Most_Important_Features.png)           | ![Actual vs. Predicted](./visualization/actual_vs_predicted_plot.png)         |
-| *This plot shows that crop type is the dominant predictor of yield.* | *This plot visually confirms the model's high accuracy (R² = 0.93).* |
+#### Acutual vs. Predicted Plot
+![Actual vs. Predicted](./visualization/actual_vs_predicted_plot.png)
+*This plot visually confirms the model's high accuracy (R² = 0.93).*
 
 #### Interactive Web Application
 
